@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light top-fixed">
+        <a class="navbar-brand" href="#">
+            <img src="https://i.postimg.cc/Wb0Sj5m2/bhargavi-removebg-preview.png" class="logo-img">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active nav-item-size" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link nav-item-size" href="category.html">Categories</a>
+            <a class="nav-link nav-item-size" href="profie.html">Profile</a>
+            <a class="nav-link nav-item-size" href="login.html">login</a>
+          </div>
+        </div>
+      </nav>
+    <!--home page-->
+    <div class="home-page-bg-container pt-5 d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-5 pb-5">
+
+                    <div class="text-center">
+                        <h1 class="home-page-heading pt-5">Find Your Next Tech Event, Hackathon or Workshop </h1>
+                        <p class="home-page-paragraph">Explore and register for hackathons, workshops, and online courses in one place. Get access guidance with our AI-Powered platform.</p>
+                        <a href="login.html">
+                            <button class=" btn btn-primary mr-2">Join Now</button>
+                        </a>
+                        <!-- Learn More Button -->
+<div class="learn-more-container text-center mt-4">
+    <button type="button" class="btn btn-outline-primary ml-2" data-toggle="modal" data-target="#exampleModal">
+      Learn More
+    </button>
+  </div>
+  
+  <!-- Bootstrap Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">What is HackNext?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+  
+        <div class="modal-body">
+          <p>
+            HackNext is your all-in-one platform designed to solve the biggest problem in tech event discovery:
+            finding the right opportunities at the right time. In a world full of hackathons, workshops, coding bootcamps, and tech fests,
+            students and professionals often miss out simply because events are scattered across different platforms.
+          </p>
+  
+          <h5>🚀 Our Solution</h5>
+          <ul>
+            <li>A centralized platform to discover and register for tech events, workshops, and online courses.</li>
+            <li>AI-powered recommendations tailored to your skills and interests.</li>
+            <li>Free and easy event listings for colleges, organizers, and educators.</li>
+            <li>User-friendly dashboard for both event seekers and organizers.</li>
+          </ul>
+  
+          <h5>🎯 Who is it for?</h5>
+          <ul>
+            <li>Students & professionals looking for skill-building opportunities.</li>
+            <li>Colleges, clubs, and tech communities wanting to promote events.</li>
+            <li>EdTech providers offering courses, bootcamps, and certifications.</li>
+            <li>Companies hosting hackathons, career fairs, and tech summits.</li>
+          </ul>
+  
+          <h5>💡 Key Features</h5>
+          <ul>
+            <li>Advanced event search & filtering</li>
+            <li>Personalized event recommendations</li>
+            <li>Instant registration & reminders</li>
+            <li>Organizer dashboard & analytics</li>
+            <li>Custom ticketing, QR check-ins, and promotional tools</li>
+          </ul>
+  
+          <h5>💼 Monetization & Admin Tools</h5>
+          <ul>
+            <li>Featured listings and sponsorships</li>
+            <li>Premium memberships with exclusive perks</li>
+            <li>Admin dashboard for moderation, analytics, and fraud prevention</li>
+          </ul>
+  
+          <p>
+            Whether you're a student exploring hackathons, a college hosting a fest, or a professional seeking
+            growth, <strong>HackNext</strong> bridges the gap between opportunity and ambition — all in one place.
+          </p>
+        </div>
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                    </div>
+                    <div class="chatbot-body">
+                        <div class="chatbot-icon">
+                            <a href="category.html" class="chatbot-btn">
+                                <img src="https://img.freepik.com/free-vector/chatbot-conversation-vectorart_78370-4107.jpg?semt=ais_hybrid&w=740" alt="Chatbot Icon" />
+                            </a>
+                        </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

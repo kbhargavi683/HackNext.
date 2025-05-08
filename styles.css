@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.nav-item-size{
+    font-size:19px;
+}
+.logo-img {
+    height: 11vh;
+    margin:0px;
+
+}
+
+.home-page-bg-container {
+    background-image: url("https://png.pngtree.com/background/20230318/original/pngtree-electronic-circuit-high-tech-internet-smart-technology-line-advertising-background-picture-image_2150293.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 105vh;
+    width: 100%;
+}
+
+.home-page-heading {
+    font-family: "Bree Serif";
+    font-size: 30px;
+    font-weight: 500;
+    color: #e6e6e6;
+}
+
+.home-page-paragraph {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    color: #e6e6e6;
+}
+
+/* Categories Section */
+.categories-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #007bff;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.category-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+    padding: 30px;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.category-description {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.modal-body {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.category-heading {
+    font-weight: bold;
+}
+
+.category-section-bg-container {
+    background-image: url("https://kpmglearningmalta.com/wp-content/uploads/2022/03/dms-conceptdocument-management-system-setup-by-it-consultant-with-laptop-computer-scaled-450x450.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.btn-category {
+    margin: 0 8px;
+    font-weight: 500;
+    min-width: 130px;
+}
+
+.category-section {
+    display: none;
+    animation: fade-in 0.5s ease-in-out;
+}
+
+.category-section.active-section {
+    display: block;
+}
+
+.card {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Basic style to center the chatbot icon */
+.chatbot-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the chatbot icon */
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px; /* Position it at the bottom */
+    right: 20px;  /* Position it at the right */
+    z-index: 1000; /* Ensures the icon is always on top */
+}
+
+.chatbot-btn img {
+    width: 70px; /* Size of the icon */
+    height: 70px; /* Size of the icon */
+    border-radius: 50%; /* Rounded edges for the icon */
+    background-color: #ffffff; /* White background to match the image border */
+    padding: 5px; /* Add space inside the button */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect for depth */
+    cursor: pointer; /* Pointer cursor when hovering */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect when the user hovers over the chatbot icon */
+.chatbot-btn img:hover {
+    transform: scale(1.1); /* Slightly increase the size on hover */
+}
+/*learn more button*/

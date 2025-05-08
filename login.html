@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login System</title>
+  <link rel="stylesheet" href="loginstyles.css">
+  <script src="https://kit.fontawesome.com/243ce918ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container" id="container">
+    <!-- Login Form (default view) -->
+    <div class="form-container" id="loginForm">
+      <h1><div class="text-left back-icon">
+        <a href="index.html"><i class="fa-solid fa-arrow-left text-light" style="color:white;"></i></a>
+      </div>Login</h1>
+      <div class="alert" id="loginAlert"></div>
+      <form id="loginFormElement">
+        <div class="form-group">
+          <label for="loginEmail">Email or Mobile</label>
+          <input type="text" id="loginEmail" required>
+        </div>
+        <div class="form-group">
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" required>
+        </div>
+        <button type="submit" class="btn">Login</button>
+      </form>
+      <p class="toggle-form">Don't have an account? <a href="#" id="showRegister">Register</a></p>
+    </div>
+
+    <!-- Register Form (hidden by default) -->
+    <div class="form-container hidden" id="registerForm">
+      <h1>Register</h1>
+      <div class="alert" id="registerAlert"></div>
+      <form id="registerFormElement">
+        <div class="form-group">
+          <label for="registerName">First Name</label>
+          <input type="text" id="registerName" required>
+        </div>
+        <div class="form-group">
+          <label for="registerSurname">Last Name</label>
+          <input type="text" id="registerSurname" required>
+        </div>
+        <div class="form-group">
+          <label for="registerMobile">Mobile Number</label>
+          <input type="tel" id="registerMobile" required>
+        </div>
+        <div class="form-group">
+          <label for="registerEmail">Email</label>
+          <input type="email" id="registerEmail" required>
+        </div>
+        <div class="form-group">
+          <label for="registerPassword">Password</label>
+          <input type="password" id="registerPassword" required>
+        </div>
+        <div class="form-group">
+          <label for="registerConfirmPassword">Confirm Password</label>
+          <input type="password" id="registerConfirmPassword" required>
+        </div>
+        <button type="submit" class="btn">Register</button>
+      </form>
+      <p class="toggle-form">Already have an account? <a href="#" id="showLogin">Login</a></p>
+    </div>
+
+    <!-- Welcome Page (hidden by default) -->
+    <div class="welcome-container hidden" id="welcomePage">
+      <h1 id="welcomeMessage">Welcome!</h1>
+      <div class="user-info">
+        <div class="info-item">
+          <span class="info-label">Full Name:</span>
+          <span id="userFullName"></span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Email:</span>
+          <span id="userEmail"></span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Mobile:</span>
+          <span id="userMobile"></span>
+        </div>
+      </div>
+      <button id="logoutBtn" class="btn">Logout</button>
+    </div>
+    
+  </div>
+
+  <script src="loginscript.js"></script>
+</body>
+</html>

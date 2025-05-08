@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="catstyles.css" />
+    <script src="https://kit.fontawesome.com/243ce918ec.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/243ce918ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="https://i.postimg.cc/Wb0Sj5m2/bhargavi-removebg-preview.png" class="logo-img">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active nav-item-size" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link nav-item-size" href="category.html">Categories</a>
+            <a class="nav-link nav-item-size" href="profie.html">Profile</a>
+            <a class="nav-link nav-item-size" href="login.html">login</a>
+          </div>
+        </div>
+      </nav>
+    <!-- Category Buttons -->
+    <div id="sectioncategory">
+        <div class="category-section-bg-container  mt-5 pt-5 text-center d-flex flex-column justify-content-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div>
+                            <h2 class="mb-4 category-heading">Explore Event Categories</h2>
+                            <div class="btn-group category-buttons" role="group">
+                                <button class="btn btn-outline-light btn-category mr-2" onclick="display('section-categories-hackthon')">Hackathons</button>
+                                <button class="btn btn-outline-light btn-category ml-2 mr-2" onclick="display('section-categories-workshops')">Workshops</button>
+                                <button class="btn btn-outline-light btn-category ml-2" onclick="display('section-categories-courses')">Courses</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatbot-body">
+            <div class="chatbot-icon">
+                <a href="chat.html" class="chatbot-btn">
+                    <img src="https://img.freepik.com/free-vector/chatbot-conversation-vectorart_78370-4107.jpg?semt=ais_hybrid&w=740" alt="Chatbot Icon" />
+                </a>
+            </div>
+            </div>
+    </div>
+    <!--hackathons-->
+    <div id="section-categories-hackthon">
+        <div class="categories-card-container pt-5">
+            <div class="container-fluid">
+                <div class="row mt-5">
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-events-details')">
+                            <img src="https://sectricity.com/wp-content/uploads/2020/03/Ethical-Hacker-Sectricity.jpg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Learn Ethical Hacking
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">Every Week on Sat, Sun at 12:00 PM(Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">Bangalore Ethical Hacking Meetup, <b>3.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">Network Security</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Hacking</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Computer Security</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-events-details')">
+                            <img src="https://media.licdn.com/dms/image/v2/D5622AQH9AulfO-S5BA/feedshare-shrink_800/feedshare-shrink_800/0/1725699842161?e=2147483647&v=beta&t=NEjDq64t-0uAxsDEjTENPaaTOPKZIPSOolGpdynf6TE" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Build for Bharat Hackthon
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">Every Week on Sat, Sun at 2:00 PM(Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">Tech4India Hackathon Meetup,<b> 4.2 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-2 categories-section-sub-des">Innovation</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-2 categories-section-sub-des">Startups</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-2 categories-section-sub-des">Development</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-events-details')">
+                            <img src="https://www.mindinventory.com/blog/wp-content/uploads/2023/10/ai-in-healthcare-industry.webp" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                AI for Healthcare Hack
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">May 12-14 at 10:00 AM(Asia/Hyderabad)<i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">HealthHack 2025,<b> 4.5 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-1 categories-section-sub-des">AI</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-1 categories-section-sub-des">HealthCare</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-1 categories-section-sub-des">Machine Learning</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-events-details')">
+                            <img src="https://media.hackerearth.com/media/hackathon/GEHC-womencodejam-2019/images/9f56351241-GE_HE_Cover.png" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Women in Tech CodeJam
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 8-9 at 11:00 AM(America/New_York). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">WIT Tndia,<b> 4.8 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Diversity</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Web Dev</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Open source</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-events-details')">
+                            <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/mobile_banner/67d022632f090_hackathon-hack-the-universe.webp" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Global HackVerse 2025
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">May 25-27 at 9:00 AM(Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">DevGlobal Community,<b> 4.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">AI</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Blockchain</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Sustainability</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-events-details')">
+                            <img src="https://i.ytimg.com/vi/5HwVlsFNX2I/sddefault.jpg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Hack the Future: FinTech Edition
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 1-3 at 10:00 AM(America/New-York). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">Finastra,<b> 4.4 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">FinTech</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Security</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Cloud</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-events-details')">
+                            <img src="https://launchlab.ai/wp-content/uploads/2019/10/4-5.png" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Code for Climate Hackathon
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">10-12 at 11:00 AM (Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">GreenTech Alliance,<b> 4.7 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Climate</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Startups</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Development</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-events-details')">
+                            <img src="https://i0.wp.com/mucuruzi.com/wp-content/uploads/2025/04/NextGen.png?fit=800%2C400&ssl=1" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                NextGen Women Hack 2025
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">15-16 at 1:00 PM (Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">WomrnCoders United,<b> 4.9 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Empowerment</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Web Dev</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Open source</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-events-details')">
+                            <img src="https://miro.medium.com/v2/resize:fit:1400/1*PDXSrGc6aALlaCrq7F7cVw.jpeg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                HackAI: Build with LLMs
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 22-23 at 12:00 PM (Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">AI Labs,<b> 4.2 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">AI</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Prompt Engineering</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">NLP</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-events-details')">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwpOnH1xxvrX3-ReBq7emEcxsNBHd0fIwm8g&s" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Cyber Shield Hackthon
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">July 5-7 at 3:00 PM (Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">SecureNet Global,<b> 4.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Cybersecurity</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Ethical Hacking</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">DevSecOps</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="category.html">
+            <button class="fixed-btn btn bg-primary text-white" style="color:#ffffff">Back</button>
+        </a>
+    </div>
+    <!--detail page for the hackathons-->
+    <div id="section-categories-events-details">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="page-body">
+                        <div class="container-hackathon">
+                            <div class="header-hackathon">
+                                <h1 class="hackathon-title mt-5">Learn Ethical Hacking</h1>
+                                <p class="hackathon-subtitle">48-Hour Challenge for Tech Innovators</p>
+                            </div>
+
+                            <div class="hackathon-info text-light">
+                                <p class="info-date"><strong>Date:</strong> May 18–20, 2025</p>
+                                <p class="info-time"><strong>Time:</strong> Starts at 10:00 AM IST</p>
+                                <p class="info-mode"><strong>Mode:</strong> Online & Offline Hybrid</p>
+                            </div>
+
+                            <div class="hackathon-rating">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star-half-stroke star-gold"></i>
+                                    <span class="rating-number">4.6</span>
+                                </div>
+                                <p class="rated-by">Rated by 842 developers</p>
+                            </div>
+
+                            <div>
+                                <h2 class="section-title">About the Hackathon</h2>
+                                <p class="about-text">
+                                    CyberSprint 2025 is a thrilling 48-hour hackathon that challenges developers, designers, and tech enthusiasts to build innovative solutions for real-world cybersecurity and automation problems.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 class="section-title">Hackathon Tracks</h2>
+                                <ul class="track-list">
+                                    <li class="track-item">🔐 Cybersecurity & Ethical Hacking</li>
+                                    <li class="track-item">🌐 Web & Mobile App Development</li>
+                                    <li class="track-item">🤖 AI/ML for Security Automation</li>
+                                    <li class="track-item">📊 Data Privacy & Blockchain</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h2 class="section-title">Perks and Prizes</h2>
+                                <ul class="perks-list">
+                                    <li class="perk-item">🏆 ₹1,00,000+ in prize pool</li>
+                                    <li class="perk-item">🎟️ Swags, T-shirts, and Stickers</li>
+                                    <li class="perk-item">💼 Internship & Job Opportunities</li>
+                                    <li class="perk-item">🎤 Access to Expert Sessions</li>
+                                </ul>
+                            </div>
+
+                            <div class="section-join">
+                                <p class="join-fee">Participation Fee: ₹500 (fully refundable on submission)</p>
+                                <button class="btn-register">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="fixed-btn btn bg-primary text-white" style="color:#ffffff" onclick="display('section-categories-hackthon')">Back</button>
+    </div>
+    <!--workshops-->
+    <div id="section-categories-workshops">
+        <div class="categories-card-container pt-5">
+            <div class="container-fluid">
+                <div class="row mt-5">
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-workshops-details')">
+                            <img src="https://miro.medium.com/v2/resize:fit:800/1*csEMmQ-po3jOFGMFAtwKrg.png" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Intro to Prompt Engineering
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">May 18 at 10:00 AM(Asia/Hyderabad). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">AI Craft Labs, <b>4.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">Generative AI</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">LLMs</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">NLP</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-workshops-details')">
+                            <img src="https://tech-gyan.in/wp-content/uploads/2021/06/Web-Development-Workshop.jpg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Web Development Bootcamp
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">May 20-24 at 2:00 PM(Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">CodeSprint Academy, <b> 4.5 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-2 categories-section-sub-des">HTML</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-2 categories-section-sub-des">CSS</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-2 categories-section-sub-des">JavaScript</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-workshops-details')">
+                            <img src="https://training.gitaa.in/pluginfile.php/8417/course/overviewfiles/Python%20for%20Data%20Science.jpg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Data Science with Python
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 3-5 at 11:00 AM(Asia/Hyderabad)<i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">DataNerds Hub, <b> 4.5 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-1 categories-section-sub-des">Python</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-1 categories-section-sub-des">Pandas</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 pr-1 categories-section-sub-des">Machine Learning</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-workshops-details')">
+                            <img src="https://miro.medium.com/v2/resize:fit:1400/1*z7LIzBjZHURS5H0pYjldLw.jpeg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                UI/UX Design Workshop
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 12 at 9:00 AM(America/New_York). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">Figjam, <b> 4.8 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Figma</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">User Research</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Prototyping</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-workshops-details')">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdBeA1i7H2yCb_72FFdep3G9MYOr0YmOYzUw&s" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Cloud Computing with AWS
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">May 19-21 at 3:00 PM(Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">CloudBoosters, <b> 4.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">AWS</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">DevOps</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Infrastructure</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-workshops-details')">
+                            <img src="https://media.licdn.com/dms/image/C5612AQEGt2kfHCLVnA/article-cover_image-shrink_720_1280/0/1618137002646?e=2147483647&v=beta&t=ptMlRCUfKsiKePjRj3LJZCtYxsecH7XDRFBEQUqNCDA" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                CyberSecurity Essentials
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">July 1-2 at 1:00 PM(America/New-York). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">Cybint, <b> 4.4 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Networks</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">CyberSecurity</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Ethical Hacking</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-workshops-details')">
+                            <img src="https://cdn.boardinfinity.com/webinars/3-mobile.png" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Building Chatbots with Dialogflow
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">July 2 at 11:00 AM (Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">BotMinds Academy, <b> 4.7 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Chatbots</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">NLP</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Automatin</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-workshops-details')">
+                            <img src="https://www.izenbridge.com/wp-content/uploads/2014/02/iZenBridge-International-Event-1st-Agile-Project-Management-Workshop-Jakarta-1-1-1-1-1.jpg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Agile Project Management
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">July 10-11 at 2:00 PM (Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">iZenBridge,<b> 4.9 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Agile</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Scrum</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Kanban</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-workshops-details')">
+                            <img src="https://2.bp.blogspot.com/-8-0LNmaQPlk/XhOT7JzEsSI/AAAAAAAACS8/iJapJLgN3Sg6KjKWfu3Aj069JDcs5FlCgCLcBGAsYHQ/w1200-h630-p-k-no-nu/1_0vWKsATw_uUzjZioJU8DyQ.png" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Deep Learning with TensorFlow
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 2-3 at 12:00 PM (Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">NeuralNet Works, <b> 4.2 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">AI</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Deep Learning</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">TensorFlow</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="categories-card m-3" onclick="display('section-categories-workshops-details')">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D12AQHHiSUINDbrTg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1738642716394?e=2147483647&v=beta&t=G1poZnGV-CNmvJtmeTDRKplgYqByzP_AAm_Xe-zBrxU" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Career Building in Tech
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">July 5 at 1:00 PM (Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="text-light pl-3">GrowWithTech,<b> 4.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Career</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Resume Building</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="text-light p-1 pl-2 categories-section-sub-des">Interviews</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <a href="category.html">
+                <button class="fixed-btn btn bg-primary text-white" style="color:#ffffff">Back</button>
+            </a>
+     </div>
+    </div>
+    <!--workshops detailed page-->
+    <div id="section-categories-workshops-details">
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-12 ">
+                    <div class="page-body">
+                        <div class="container-hackathon">
+                            <div class="header-hackathon">
+                                <h1 class="hackathon-title mt-5">Intro to Prompt Engineering 2-Day Hands-On Workshop for AI Enthusiasts</h1>
+                                <p class="hackathon-subtitle">48-Hour Challenge for Tech Innovators</p>
+                            </div>
+
+                            <div class="hackathon-info text-light">
+                                <p class="info-date"><strong>Date:</strong> May 24, 2025</p>
+                                <p class="info-time"><strong>Time:</strong> Starts at 10:00 AM IST</p>
+                                <p class="info-mode"><strong>Mode:</strong> Online & Offline Hybrid</p>
+                            </div>
+
+                            <div class="hackathon-rating">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star-half-stroke star-gold"></i>
+                                    <span class="rating-number">4.6</span>
+                                </div>
+                                <p class="rated-by">Rated by 950+ Partcipants</p>
+                            </div>
+
+                            <div>
+                                <h2 class="section-title">About the Workshop</h2>
+                                <p class="about-text">
+                                    "Intro to Prompt Enginnering" is a focused 2-day workshop designed to equip developers, researchers, and aspiring AI engineers with the foundational knowledge and skills to master prompt engineering in large language models. participants will learn how to craft effective prompts, understand prompt tuning techiques and explore real-world applications in AI-Powered tools.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 class="section-title">Workshop Tracks Tracks</h2>
+                                <ul class="track-list">
+                                    <li class="track-item">📝 Basics of Prompt Engineering</li>
+                                    <li class="track-item">🔄 Few-shot & Zero-shot Prompting</li>
+                                    <li class="track-item">⚙️ Advanced Prompt Techniques</li>
+                                    <li class="track-item">💻 Hands-on with OpenAI & other LLM APIs</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h2 class="section-title">Perks and Prizes</h2>
+                                <ul class="perks-list">
+                                    <li class="perk-item">🎓 Certificate of Completion</li>
+                                    <li class="perk-item">🎁 Swags, T-shirts and Strickers</li>
+                                    <li class="perk-item">💼 Internship & Job Opportunities</li>
+                                    <li class="perk-item">🤝 Mentership Sessions with AI Experts</li>
+                                    <li class="perk-item">🏆 ₹50,000+ in Prizes and tools credits</li>
+                                </ul>
+                            </div>
+
+                            <div class="section-join">
+                                <p class="join-fee">Participation Fee: ₹500 (fully refundable on submission)</p>
+                                <button class="btn-register">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="fixed-btn btn bg-primary text-white" style="color:#ffffff" onclick="display('section-categories-workshops')">Back</button>
+    </div>
+    <!--courses-->
+    <div id="section-categories-courses">
+        <div class="categories-card-container pt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-6 mt-5">
+                        <div class="categories-card m-3" onclick="display('ssection-categories-courses-details')">
+                            <img src="https://miro.medium.com/v2/resize:fit:900/1*57YDg0EsnSBYsTnwYPkSDg.jpeg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">Introduction to Artificial Intelligence</h1>
+                            <p class="categories-section-paragraph text-light ml-3">May 10 at 10:00 AM(Asia/Hyderabad). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">AI Path Academy, <b>4.7 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">AI</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Basics</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Machine Learning</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mt-5">
+                        <div class="categories-card m-3" onclick="display('section-categories-courses-details')">
+                            <img src="https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/583f078e6282.jpeg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Web Design with HTML & CSS
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">May 14 at 9:00 AM(Asia/Hyderabad). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">WebStart School, <b>4.4 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">HTML</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">CSS</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Frontend Design</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mt-5">
+                        <div class="categories-card m-3" onclick="display('section-categories-courses-details')">
+                            <img src="https://assets.skooldio.com/courses/sql-basic-online/SQL-white%402x.png" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                SQL for Data Analysis
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">May 18 at 3:00 PM(Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">DataQuery Academy, <b>4.4 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">SQL</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Data Analytics</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Databases</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mt-5">
+                        <div class="categories-card m-3" onclick="display('section-categories-courses-details')">
+                            <img src="https://edukators.in/wp-content/uploads/2023/11/Java-training.jpeg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Java Programming Essentials
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">May 22 at 11:00AM(Asia/Hyderabad). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">CodeCampers, <b>4.7 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">Java</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">OOP</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Fundamentals</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mt-5">
+                        <div class="categories-card m-3" onclick="display('section-categories-courses-details')">
+                            <img src="https://i.ytimg.com/vi/hY7B8S3LxUU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBro1a0AdfB3Jb1at7RjZouOfbIwg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Building APIs with Node.js
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3"> 10:00 AM(Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">BackendForge, <b>4.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">Node.js</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">REST API</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Backend</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mt-5">
+                        <div class="categories-card m-3" onclick="display('section-categories-courses-details')">
+                            <img src="https://i.ytimg.com/vi/q68Qundmans/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCm97Bo6omAo_m5YyfoQR4TYZAUeQ" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Data Visualization in Python
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 2 at 2:00 AM(Asia/Hyderabad). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">VisualData Academy, <b>4.8 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">Python</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Matplotlib</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Plotly</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mt-5">
+                        <div class="categories-card m-3" onclick="display('section-categories-courses-details')">
+                            <img src="https://courses.wscubetech.com/s/store/courses/60cc4bac0cf23b21faf4f153/cover.jpg?v=6" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Ethical Haching for Beginners
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 6 at 12:00 PM(America/New_York). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">HackSecure Labs, <b>4.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">Hacking</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Cybersecurity</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Tools</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mt-5">
+                        <div class="categories-card m-3" onclick="display('section-categories-courses-details')">
+                            <img src="https://www.creativeitinstitute.com/images/course/course_1674371266.jpg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                React.js Frontend Mastery
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 10 at 9:00 AM(Asia/Hyderabad). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">ReactNinjas, <b>4.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">Frontend</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">JavaSript</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">React</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mt-5">
+                        <div class="categories-card m-3" onclick="display('section-categories-courses-details')">
+                            <img src="https://kvch.in/assets-new/img/banner/cloud-computing.webp" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Introduction to Cloud Computing
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 14 at 4:00 PM(Asia/Kolkata). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">CloudSkill Academy, <b>4.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">AWS</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">Azure</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">GCP</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mt-5">
+                        <div class="categories-card m-3" onclick="display('section-categories-courses-details')">
+                            <img src="https://www.studykosh.com/uploads/36992thumbnails-17.jpg" class="categories-card-img m-4" />
+                            <h1 class="categories-section-heading text-light pl-3">
+                                Prompt Engineering With ChatGPT
+                            </h1>
+                            <p class="categories-section-paragraph text-light ml-3">June 10:00 AM(Asia/Hyderabad). <i class="fa-solid fa-video categories-icon"></i> Online</p>
+                            <p class="pl-3">, <b>4.6 </b><i class="fa-solid fa-star star-icon"></i></p>
+                            <div class="d-flex flex-row mb-5">
+                                <div class="categories-section-sub-card ml-3 mr-2">
+                                    <h6 class=" p-1 pl-2 pr-2 categories-section-sub-des">AI Prompts</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">LLMs</h6>
+                                </div>
+                                <div class="categories-section-sub-card mr-2">
+                                    <h6 class="p-1 pl-2 pr-2 categories-section-sub-des">ChatGPT</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="category.html">
+            <button class="fixed-btn btn bg-primary text-white" style="color:#ffffff">Back</button>
+        </a>
+    </div>
+    <!--detailed page for online courses-->
+    <div id="section-categories-courses-details">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-body">
+                        <div class="container-hackathon">
+                            <div class="header-hackathon">
+                                <h1 class="hackathon-title mt-5">Introduction to Artificial Intelligence</h1>
+                                <p class="hackathon-subtitle">A beginner-friendly foundation course to step into the world of AI</p>
+                            </div>
+
+                            <div class="hackathon-info text-light">
+                                <p class="info-date"><strong>Date:</strong> May 24, 2025</p>
+                                <p class="info-time"><strong>Time:</strong> Starts at 10:00 AM IST</p>
+                                <p class="info-mode"><strong>Mode:</strong> Online & Offline Hybrid</p>
+                            </div>
+
+                            <div class="hackathon-rating">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star star-gold"></i>
+                                    <i class="fa-solid fa-star-half-stroke star-gold"></i>
+                                    <span class="rating-number">4.6</span>
+                                </div>
+                                <p class="rated-by">Rated by 950+ Partcipants</p>
+                            </div>
+
+                            <div>
+                                <h2 class="section-title">About the Course</h2>
+                                <p class="about-text">
+                                    This online course introduces the fundamental concepts of Artificial Intelligence, including key techniques in machine learning, logic, reasoning, and natural language processing. Designed for absolute beginners, it builds a solid conceptual base while introducing practical tools used by AI professionals.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 class="section-title">Workshop Tracks Tracks</h2>
+                                <ul class="track-list">
+                                    <li class="track-item">🧠 What is Artificial Intelligence?</li>
+                                    <li class="track-item">🤖 Applications of AI in the Real World</li>
+                                    <li class="track-item">🔍 Basics of Machine Learning</li>
+                                    <li class="track-item">🛠️ Tools: Python, Scikit-learn, OpenAI APIs</li>
+                                    <li class="track-item">💬 Introduction to Natural Language Processing</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h2 class="section-title">Perks and Prizes</h2>
+                                <ul class="perks-list">
+                                    <li class="perk-item">🎓 Certificate of Completion</li>
+                                    <li class="perk-item">💻 Lifetime Access to Materials</li>
+                                    <li class="perk-item">🎥 Access to Recorded Lectures</li>
+                                    <li class="perk-item">🎯 Personal AI Career Roadmap</li>
+                                </ul>
+                            </div>
+
+                            <div class="section-join">
+                                <p class="join-fee">Enrollment Fee: ₹199 (one-time)</p>
+                                <button class="btn-register">Register Now</button>
+                            </div>
+                        </div>
+                        <button class="fixed-btn btn bg-primary text-white" style="color:#ffffff" onclick="display('section-categories-courses')">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <!--footer-->
+    <!-- Footer Start -->
+    <footer class="custom-footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- Logo & Tagline -->
+                <div class="col-md-4 mb-4">
+                    <img src="https://i.postimg.cc/Wb0Sj5m2/bhargavi-removebg-preview.png" class="footer-logo mb-3" alt="Logo">
+                    <p class="footer-text">Building the future of hackathons with passion and innovation.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-google"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="col-md-2 col-sm-6 mb-4">
+                    <h5 class="footer-heading">Hackathons</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Upcoming</a></li>
+                        <li><a href="#">Past</a></li>
+                        <li><a href="#">Featured</a></li>
+                        <li><a href="#">Submit</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-sm-6 mb-4">
+                    <h5 class="footer-heading">Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Getting Started</a></li>
+                        <li><a href="#">Prizes</a></li>
+                        <li><a href="#">Judging</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-sm-6 mb-4">
+                    <h5 class="footer-heading">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-sm-6 mb-4">
+                    <h5 class="footer-heading">Support</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="footer-divider" />
+
+            <!-- Copyright -->
+            <div class="text-center">
+                <p class="footer-bottom">&copy; 2025 HackNEXT. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src="catscript.js"></script>
+</body>
+
+</html>

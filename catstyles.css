@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.nav-item-size{
+    font-size:19px;
+}
+.logo-img {
+    height:11vh;
+    margin:0px;
+    
+}
+
+.category-section-bg-container {
+    background-image: url("https://www.cloudcontext.com.au/wp-content/uploads/2024/03/cloudcontext-02.jpg");
+    background-size: cover;
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+.category-heading {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.categories-card-container {
+    background-color: #797B81;
+    background-size: cover;
+    font-family: "Roboto";
+}
+
+.categories-card {
+    background-color: #909298;
+    background-size: cover;
+    border-radius: 10px;
+    color: #ffffff;
+
+}
+
+.categories-card-img {
+    height: 30%;
+    width: 90%;
+}
+
+.categories-section-paragraph {
+    font-size: 18px;
+}
+
+.categories-section-heading {
+    font-size: 26px;
+}
+
+.categories-icon {
+    color: #3E3E3E;
+}
+
+.star-icon {
+    color: #FFD700;
+}
+
+.categories-section-sub-card {
+    background-color: #A8AAB0;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+.categories-section-sub-des {
+    font-size: 15px;
+}
+
+/*event detailed page*/
+.page-body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container-hackathon {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+}
+
+.header-hackathon {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hackathon-title {
+    font-size: 2.5rem;
+    color: white;
+    margin: 0;
+}
+
+.hackathon-subtitle {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+.hackathon-info {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.info-date,
+.info-time,
+.info-mode {
+    margin: 5px 0;
+}
+
+.hackathon-rating {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.stars {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.star-gold {
+    color: gold;
+    margin: 0 2px;
+}
+
+.rating-number {
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 8px;
+}
+
+.rated-by {
+    font-size: 0.9rem;
+    color: #bdbdbd;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-left: 4px solid #03c9f5;
+    padding-left: 10px;
+}
+
+.about-text,
+.track-item,
+.perk-item,
+.join-fee {
+    font-size: 1rem;
+    color: white;
+    margin: 10px 0;
+}
+
+.track-list,
+.perks-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.section-join {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.btn-register {
+    background-color: #17a2b8;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+    background-color: #138ca1;
+}
+
+/* Footer Styles */
+.custom-footer {
+    background: linear-gradient(to left, #0a0708, #444444);
+    color: #f1f1f1;
+    padding: 60px 0 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-logo {
+    width: 120px;
+}
+
+.footer-text {
+    font-size: 17px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    font-size: 20px;
+    color: #ddd;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00d4ff;
+}
+
+.footer-heading {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #00d4ff;
+    text-decoration: underline;
+}
+
+.footer-divider {
+    border-top: 1px solid #444;
+    margin-top: 40px;
+}
+.footer-lists{
+    font-size:18px;
+}
+.footer-bottom {
+    color: #aaa;
+    font-size: 13px;
+    margin-top: 20px;
+}
+/*button fixed*/
+.fixed-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  /*chat*/
+  /* Basic style to center the chatbot icon */
+.chatbot-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the chatbot icon */
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px; /* Position it at the bottom */
+    right: 20px;  /* Position it at the right */
+    z-index: 1000; /* Ensures the icon is always on top */
+}
+
+.chatbot-btn img {
+    width: 70px; /* Size of the icon */
+    height: 70px; /* Size of the icon */
+    border-radius: 50%; /* Rounded edges for the icon */
+    background-color: #ffffff; /* White background to match the image border */
+    padding: 5px; /* Add space inside the button */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect for depth */
+    cursor: pointer; /* Pointer cursor when hovering */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect when the user hovers over the chatbot icon */
+.chatbot-btn img:hover {
+    transform: scale(1.1); /* Slightly increase the size on hover */
+}
+
+  
